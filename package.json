@@ -1,0 +1,22 @@
+{
+  "name": "calamari-native",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "calamari": "0.1.5"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.20",
+    "typescript": "^3.2.4"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "author": "Vadim Mironov",
+  "license": "MIT"
+}
